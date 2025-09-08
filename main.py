@@ -2,13 +2,13 @@
 
 from hashlib import sha256, sha512
 
-print("Şifrelemek istediğiniz birinci değeri giriniz. (sha256)")
-A = input("Birinci Değer: ")
+print("Enter the value you want to hash. (sha256)")
+A = input("First Value: ")
 
 print(sha256(A.encode('utf-8')).hexdigest())
 
-print("Şifrelemek istediğiniz ikinci değeri giriniz. (sha512)")
-B = input("İkinci Değer: ")
+print("Enter the value you want to hash. (sha512)")
+B = input("Second Value: ")
 
 print(sha512(B.encode('utf-8')).hexdigest())
 
