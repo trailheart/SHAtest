@@ -1,3 +1,4 @@
 # SHAtest
 
-Lang: EN
+Code lang: EN
+Code Commentary lang: TR
